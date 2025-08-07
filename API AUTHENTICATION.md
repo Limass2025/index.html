@@ -2,7 +2,7 @@
 ### Installing and Configuring the AWS CLI
 
 The AWS CLI is the tool that allows you to interact with AWS services directly from your terminal.
-
+![alt text](<Screenshot 2025-08-07 230733.png>)
 1.  **Download and Install AWS CLI:**
 
       * The installation process varies by operating system on Windows, macOS. Follow the official instructions to download and install the CLI version 2.
@@ -35,8 +35,8 @@ The AWS CLI is the tool that allows you to interact with AWS services directly f
       * To confirm that the CLI is configured correctly and can communicate with AWS, run a simple command like `aws ec2 describe-regions`. This command queries the EC2 API and lists all available regions. The output confirms successful authentication.
         `aws ec2 describe-regions --output table`
 
-       ![alt text](<Screenshot 2025-08-07 225914.png>)
-
+       
+  ![alt text](<Screenshot 2025-08-07 230711.png>)
 -----
 
 ### Project Summary
