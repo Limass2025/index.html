@@ -22,9 +22,9 @@ The AWS CLI is the tool that allows you to interact with AWS services directly f
 3.  **Configure the AWS CLI:**
 
       * Run the `aws configure` command in your terminal.
-      * When prompted, enter the **Access key ID** and **Secret access key** for the `automation_user`.
-      * Specify your **Default region name** (e.g., `us-east-1`).
-      * Set the **Default output format** (e.g., `json`).
+      * When prompted, enter the **Access key ID** and **Secret access key** for the `dipo`.
+      * Specify your **us-east-1** 
+      * Set the **json**
 
       ![alt text](<Screenshot 2025-08-07 225439.png>)
 
@@ -41,4 +41,4 @@ The AWS CLI is the tool that allows you to interact with AWS services directly f
 
 ### Project Summary
 
-This project has solidified my understanding of the crucial security and authentication steps required before automating tasks on AWS. I learned the importance of **least-privilege access** by creating a dedicated IAM user with a specific policy. I gained practical experience in generating and securely managing programmatic access credentials. The project also covered the installation and configuration of the **AWS CLI**, a fundamental tool for interacting with AWS services. Finally, I demonstrated how to use the `aws configure` command to link a user's credentials to the CLI and tested the setup by making a successful API call. This process is the secure foundation for any script that will create or manage AWS resources.
+This project has solidified my understanding of the crucial security and authentication steps required before automating tasks on AWS. I learned the importance of **least-privilege access** by creating a dedicated IAM user with a specific policy. I gained practical experience in generating and securely managing programmatic access credentials. The project also covered the installation and configuration of the **AWS CLI**, a fundamental tool for interacting with AWS services. Finally, I demonstrated how to use the `aws configure` command to link a dipo's credentials to the CLI and tested the setup by making a successful API call. This process is the secure foundation for any script that will create or manage AWS resources.
